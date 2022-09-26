@@ -1,0 +1,24 @@
+---
+title: "README"
+author: "Blessing-art"
+date: "2022-09-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## *Getting and Cleaning Data*  
+
+the course project for the Getting and Cleaning Data course. 
+The R script, run_analysis.R is on Data set of Human Activity i performed Using Smartphones
+
+
+download the data set and zip "getuci_data.zip" in a directory
+load and unzip the data and the read the test and the train data
+then merge the two data set together  
+Extracts the measurement on the mean and standard deviation for the measurements
+Uses descriptive activity names to name the activities 
+tidy data set with the average of each variable for each activity and each subject
+FinalData.txt explores the final data.

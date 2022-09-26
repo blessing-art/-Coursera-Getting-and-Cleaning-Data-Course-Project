@@ -1,0 +1,33 @@
+---
+title: "Code Book"
+author: "Blessing-art"
+date: "2022-09-26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+# Getting and cleaning data
+### download the datasets from UCI HAR Dataset
+
+## **identifier**
+
+Subjects: the ID of the Subject
+Activity: the Name of the Activity performed by the subject when measurements were taken
+
+## **Measurements**
+
+```{r measurement }
+features
+```
+
+## Activities Labels
+
+
+
+```{r Labels, echo=FALSE}
+activityLabel
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
